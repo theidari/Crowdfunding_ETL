@@ -10,10 +10,12 @@ import pandas as pd
 import numpy as np
 import json
 from datetime import datetime as dt
+import re
+
 # -------------------------------------------------------------------------------------------------------/
 
 # 2. function definition --------------------------------------------------------------------------------/
-
+#a-2) df extractor
 def New_df(df, column):
     df_list=[]
     for item in column:
@@ -29,3 +31,15 @@ def New_df(df, column):
         df_out = pd.DataFrame({item+C_ID:ids, item: names})
         df_list.append(df_out)  
     return df_list
+
+#b-2) regex searcher
+def Regex_Text(df,column_tag):
+    columns_length=len(REGEX_COLUMNS)
+    searcher_length=len(REGEX_SEARCHER)
+    if columns_length != searcher_length:
+        print(f"""Please input a same number of elements in both list""")
+    else:
+        for i in range(len(REGEX_COLUMNS)):
+            df[REGEX_COLUMNS[i]]=df[column_tag].str.extract(REGEX_SEARCHER[i])
+        df=df.drop(columns=[column_tag])
+        return df

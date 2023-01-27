@@ -22,3 +22,8 @@ ENTER_LINE           = f"""\n"""
 TEXT_SEPARATOR       = "e"
 LIST_COUNTER         = "Number of Distinct values: "
 C_ID                 = "_id"
+
+
+# --regex function constatnts
+REGEX_COLUMNS        = ["contact_id","first_name","last_name","email"]
+REGEX_SEARCHER       = ['contact_id":(.*), "n',r'name": "(.*)\s\w+", "',r'name": "\w+\s(.*)", "',r'email": "(.*)"']
