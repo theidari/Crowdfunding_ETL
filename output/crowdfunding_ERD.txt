@@ -1,0 +1,57 @@
+# Crowdfunding ERD
+Campaign
+----------------------------------------------------------------------------------------------
+# Crowdfunding (CF) ID "Primary Keys, INT"
+cf_id PK INT
+# Contacts ID "Foreign Keys, Share unique keys with Contacts.contact_id one TO one"
+contact_id FK - Contacts.contact_id INT
+# Company Name "A VARIABLE length string e.g. Baldwin, Riley and Jackson"
+company_name VARCHAR(255)
+# CF Description "A VARIABLE length string e.g. Pre-emptive tertiary standardization"
+description VARCHAR(255)
+# CF Goal "A Float e.g. 100.0"
+goal DECIMAL
+# CF Pledged "A Float e.g. 0.0"
+pledged DECIMAL
+# CF Outcome "A VARIABLE length string e.g. failed or successful"
+outcome VARCHAR(255)
+# CF Backers Count "INT"
+backers_count INT
+# Country "A CHAR e.g. US"
+country CHAR(2)
+# Currency "A CHAR e.g. USD"
+currency CHAR(3)
+# Currency "A CHAR e.g. USD"
+launched_date DATE
+# Currency "A CHAR e.g. USD"
+end_date DATE
+# Category ID "Foreign Keys, Share unique keys with Category.category_id many TO one"
+category_id FK >- Category.category_id CHAR(4)
+# Subcategory ID "Foreign Keys, Share unique keys with Subcategory.subcategory_id many TO one"
+subcategory_id FK >- Subcategory.subcategory_id VARCHAR(10)
+
+Contacts
+----------------------------------------------------------------------------------------------
+# Contacts ID "Primary Keys, INT"
+contact_id PK INT
+# Contacts First Name "A VARIABLE length string e.g. Cecilia"
+first_name VARCHAR(255)
+# Contacts Last Name "A VARIABLE length string e.g. Velasco"
+last_name VARCHAR(255)
+# Contacts Email "A VARIABLE length string e.g. cecilia.velasco@rodrigues.fr"
+email VARCHAR(255)
+
+Category
+----------------------------------------------------------------------------------------------
+# Category ID "Primary Keys"
+category_id PK CHAR(4)
+# Category "A VARIABLE length string e.g. technology"
+category VARCHAR(255)
+
+Subcategory
+----------------------------------------------------------------------------------------------
+# Subcategory ID "Primary Keys"
+subcategory_id PK VARCHAR(10)
+# Subcategory "A VARIABLE length string e.g. web"
+subcategory VARCHAR(255)
+----------------------------------------------------------------------------------------------
