@@ -40,5 +40,7 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 <img src="https://raw.githubusercontent.com/theidari/Crowdfunding_ETL/591ec41cf96da62ebed837b35537da4880705a33/output/crowdfunding_ERD_basic_color.svg" width="600px" height="700px">
 </p>
 
+[<b>Create a Table and Import Data</b>](https://github.com/theidari/Crowdfunding_ETL/blob/main/code/crowdfunding_db.sql)
+
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>References</b></br>
 <sup>[1]</sup> Trilogy Education Services, a <a href="https://2u.com/">2U, Inc.</a> brand.</br>
