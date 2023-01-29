@@ -26,8 +26,19 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>Results</b></br>
 - <b>Data Extraction</b>
 
-
+<p align="center">
+<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/category_df.png" width="160px">&nbsp;<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/subcategory_df.png" width="220px">
+</p>
+<p align="center">
+<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/campaign.png" width="900px">
+</p>
+<p align="center">
+<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/contacts.png" width="450px">
+</p>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/theidari/Crowdfunding_ETL/591ec41cf96da62ebed837b35537da4880705a33/output/crowdfunding_ERD_basic_color.svg" width="600px" height="700px">
 </p>
+
+<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>References</b></br>
+<sup>[1]</sup> Trilogy Education Services, a <a href="https://2u.com/">2U, Inc.</a> brand.</br>
