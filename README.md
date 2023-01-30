@@ -24,7 +24,7 @@ To receive funding, the project must meet or exceed an initial goal, so many org
   
 
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>Results</b></br>
-- <b>Data Extraction</b>
+- <b>ETL</b>
 
 <p align="center">
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/category_df.png" width="160px">&nbsp;<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/subcategory_df.png" width="220px">
