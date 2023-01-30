@@ -25,30 +25,31 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>ETL Results</b></br>
 - <b>Create the Category and Subcategory DataFrames</b>
-
+<h6 align="center">Fig[1]: Category and Subcategory DataFrames</h6>
 <p align="center">
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/category_df.png" width="160px">&nbsp;<img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/subcategory_df.png" width="220px">
 </p>
 
 - <b>Create the Campaign DataFrame</b>
-
+<h6 align="center">Fig[2]: Campaign DataFrame</h6>
 <p align="center">
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/campaign.png" width="900px">
 </p>
 
 - <b>Create the Contacts DataFrame</b>
-
+<h6 align="center">Fig[3]: Contacts DataFrame</h6>
 <p align="center">
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/contacts.png" width="450px">
 </p>
 
 - <b>Create the Crowdfunding Database</b></br>
-In this project, [Entity-Relationship Diagrams (ERDs)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) were utilized as the primary modeling method, implemented using the [QUICK DBD](https://www.quickdatabasediagrams.com/) application. The ERD revealed four entities in the crowdfunding database, namely categories, subcategories, campaigns, and contacts. The modeling results were depicted in Figure 4. Additionally, the [Crowdfunding ERD Documentation](https://github.com/theidari/Crowdfunding_ETL/blob/main/output/Crowdfunding_ERD.pdf) offers a comprehensive overview of the diagram.
+  - In this project, [Entity-Relationship Diagrams (ERDs)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) were utilized as the primary modeling method, implemented using the [QUICK DBD](https://www.quickdatabasediagrams.com/) application. The ERD revealed four entities in the crowdfunding database, namely categories, subcategories, campaigns, and contacts. The modeling results were depicted in Figure 4. Additionally, the [Crowdfunding ERD Documentation](https://github.com/theidari/Crowdfunding_ETL/blob/main/output/Crowdfunding_ERD.pdf) offers a comprehensive overview of the diagram.
+  - [<b>Create a Table and Import Data</b>](https://github.com/theidari/Crowdfunding_ETL/blob/main/code/crowdfunding_db.sql)
+<h6 align="center">Fig[4]: Crowdfunding ERD</h6>
 <p align="center">
 <img src="https://raw.githubusercontent.com/theidari/Crowdfunding_ETL/591ec41cf96da62ebed837b35537da4880705a33/output/crowdfunding_ERD_basic_color.svg" width="600px" height="700px">
 </p>
 
-[<b>Create a Table and Import Data</b>](https://github.com/theidari/Crowdfunding_ETL/blob/main/code/crowdfunding_db.sql)
 
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/asset/space_label.png" width="30px"> <b>References</b></br>
 <sup>[1]</sup> Trilogy Education Services, a <a href="https://2u.com/">2U, Inc.</a> brand.</br>
