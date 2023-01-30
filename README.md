@@ -43,7 +43,7 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 </p>
 
 - <b>Create the Crowdfunding Database</b></br>
-In this project, [Entity-Relationship Diagrams (ERDs)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) were utilized as the primary modeling method, implemented using the [QUICK DBD](https://www.quickdatabasediagrams.com/) application.
+In this project, [Entity-Relationship Diagrams (ERDs)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) were utilized as the primary modeling method, implemented using the [QUICK DBD](https://www.quickdatabasediagrams.com/) application. The ERD revealed four entities in the crowdfunding database, namely categories, subcategories, campaigns, and contacts. The modeling results were depicted in Figure 4. Additionally, the [Crowdfunding ERD Documentation](https://github.com/theidari/Crowdfunding_ETL/blob/main/output/Crowdfunding_ERD.pdf) offers a comprehensive overview of the diagram.
 <p align="center">
 <img src="https://raw.githubusercontent.com/theidari/Crowdfunding_ETL/591ec41cf96da62ebed837b35537da4880705a33/output/crowdfunding_ERD_basic_color.svg" width="600px" height="700px">
 </p>
