@@ -42,8 +42,8 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 <img src="https://github.com/theidari/Crowdfunding_ETL/blob/main/output/contacts.png" width="450px">
 </p>
 
-- <b>Create the Crowdfunding Database</b>
-
+- <b>Create the Crowdfunding Database</b></br>
+In this project, [Entity-Relationship Diagrams (ERDs)](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model) were utilized as the primary modeling method, implemented using the [QUICK DBD](https://www.quickdatabasediagrams.com/) application.
 <p align="center">
 <img src="https://raw.githubusercontent.com/theidari/Crowdfunding_ETL/591ec41cf96da62ebed837b35537da4880705a33/output/crowdfunding_ERD_basic_color.svg" width="600px" height="700px">
 </p>
